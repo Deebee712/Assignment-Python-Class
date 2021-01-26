@@ -1,0 +1,48 @@
+Linux Assignment - Basic Level - for Command Prompt
+1. ipconfig
+2. the mv command to move files and directories from one directory to another or to rename a file or directory. 
+If you move a file or directory to a new directory without specifying a new name, it retains its original name.
+3. md & mkdir
+4. dir
+5. dir
+6. cls
+7. A daemon (also known as background processes) is a Linux or UNIX program that runs in the background. 
+For example, httpd the daemon that handles the Apache server, or, sshd which handles SSH remote access connections.
+Linux often start daemons at boot time.
+8. cd
+9. Echo - Used to display a message or to turn off/on messages in batch scripts
+10. type
+11. your interface is your shell
+12. Services.msc
+13. Right-click the program or shortcut icon.
+Choose the Run As Administrator command from the shortcut menu. You see a User Account Control (UAC) warning appear.
+Type the administrator's password or click the Yes or Continue button. The program then runs with elevated privileges.
+14. dir
+15. Del
+16. To provide sudo access, the user has to be added to the sudo group. 
+The su command lets you switch the current user to any other user. 
+If you need to run a command as a different (non-root) user, use the –l [username] option to specify the user account.
+17. sudo -s will give u an interactive root sheel at your current directory and Sudo - i will give complete root environment.
+18. file file.txt
+
+******************************************************************************************************************************************
+Assignment 2 - Intermediate Level
+1. Entry Mode and Command Mode
+2. mkdir 
+3. Last in Last Out (LILO)
+4. cd/ - changes current directory to root directory, I.e. top directory
+   cd~ - changes current directory to user's home, same as "cd" with no arguments
+   cd- : changes current directory to the directory that you were last in
+5. Grep is a command line tool to search for regular expressions.
+ Grep will print the matching line to the output and with the --color flag you can highlight the matching strings.
+6. yes using the rmdir x command you can remove the whole directory
+7. The /usr/local directory is a special version of /usr that has its own internal structure of bin, lib and sbin directories, 
+but /usr/local is designed to be a place where users can install their own software outside the distribution's provided software without 
+worrying about overwriting any distribution files
+8. whoami
+9. Net user
+10. diff command
+11. whereis
+12. whoami
+13.   
+ 
