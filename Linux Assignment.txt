@@ -1,0 +1,82 @@
+Linux Assignment - Basic Level - for Command Prompt
+1. ipconfig
+2. the mv command to move files and directories from one directory to another or to rename a file or directory. 
+If you move a file or directory to a new directory without specifying a new name, it retains its original name.
+3. md & mkdir
+4. dir
+5. dir
+6. cls
+7. A daemon (also known as background processes) is a Linux or UNIX program that runs in the background. 
+For example, httpd the daemon that handles the Apache server, or, sshd which handles SSH remote access connections.
+Linux often start daemons at boot time.
+8. cd
+9. Echo - Used to display a message or to turn off/on messages in batch scripts
+10. type
+11. your interface is your shell
+12. Services.msc
+13. Right-click the program or shortcut icon.
+Choose the Run As Administrator command from the shortcut menu. You see a User Account Control (UAC) warning appear.
+Type the administrator's password or click the Yes or Continue button. The program then runs with elevated privileges.
+14. dir
+15. Del
+16. To provide sudo access, the user has to be added to the sudo group. 
+The su command lets you switch the current user to any other user. 
+If you need to run a command as a different (non-root) user, use the –l [username] option to specify the user account.
+17. sudo -s will give u an interactive root sheel at your current directory and Sudo - i will give complete root environment.
+18. file file.txt
+
+******************************************************************************************************************************************
+Assignment 2 - Intermediate Level
+1. Entry Mode and Command Mode
+2. mkdir 
+3. Last in Last Out (LILO)
+4. cd/ - changes current directory to root directory, I.e. top directory
+   cd~ - changes current directory to user's home, same as "cd" with no arguments
+   cd- : changes current directory to the directory that you were last in
+5. Grep is a command line tool to search for regular expressions.
+ Grep will print the matching line to the output and with the --color flag you can highlight the matching strings.
+6. yes using the rmdir x command you can remove the whole directory
+7. The /usr/local directory is a special version of /usr that has its own internal structure of bin, lib and sbin directories, 
+but /usr/local is designed to be a place where users can install their own software outside the distribution's provided software without 
+worrying about overwriting any distribution files
+8. whoami
+9. Net user
+10. diff command
+11. whereis
+12. whoami
+13. taskkill /F /IM iexplore.exe
+14. ls
+15. mv
+16. cat /proc/meminfo   
+17. -r
+18.:net
+19.chown
+*******************************************************************************************************************************************************************************************************************
+Assignment 3
+1. df/ mount/ or /proc/mounts or /proc/self/mounts
+2. du K,M or G
+3. Swap space in Linux is used when the amount of physical memory (RAM) is full. If the system needs more memory resources and the RAM is full, inactive pages in memory are moved to the swap space. 
+ So if a computer had 64KB of RAM, a swap partition of 128KB would be an optimum size.
+4. $ crontab -l.
+5. grep -v -i hello file1.txt - search a file for a string in a file
+   grep -i hello file2.txt - this will print hello
+6. The export command is a built-in utility of Linux Bash shell. It is used to ensure the environment variables and functions to be passed to child processes. 
+It does not affect the existing environment variable. Environment variables are set when we open a new shell session.
+E.g. To view all exported variables on current shell. $ export -p
+7. Redirection is a feature in Linux such that when executing a command, you can change the standard input/output devices. The basic workflow of any Linux command is that it takes an input and give an output.
+ E.g. ls -al > listings
+8. dmesg
+9. chmod
+10. fdisk
+11. gzip command followed by name of thr file you want compressed
+12. /etc/fstab
+13. shutdown- powers off, restarts, logs off, or hibernates your own computer
+    diff- This command is used to display the differences in the files by comparing the files line by line
+    sort- used to sort a file, arranging the records in a particular order
+    ps- enables you to check the status of active processes on a system, as well as display technical information about the processes
+    kill- used to send a signal to a process
+    mount-  command mounts a storage device or filesystem, making it accessible and attaching it to an existing directory structure
+    nano- is an easy to use command line text editor for Unix and Linux operating systems. It includes all the basic functionality you'd expect from a regular text editor,
+14. A symbolic link, also termed a soft link, is a special kind of file that points to another file, much like a shortcut in Windows or a Macintosh alias
+    To create a symbolic link, use the -s ( --symbolic )
+15. cp -r/R
